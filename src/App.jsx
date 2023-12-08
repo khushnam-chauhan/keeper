@@ -1,9 +1,16 @@
+import React from "react";
+import Header from "./Header";
+import Footer from "./footer";
+import Note from "./Note";
+
 function App(){
-    console.log("hello world")
-    console.log("hiii")
     return(<>
-    <div>  </div>
-    <div>  </div>
+    <div>
+    <Header />
+    <Note />
+    <Footer />
+    
+    </div>
     </>)
 }
 
